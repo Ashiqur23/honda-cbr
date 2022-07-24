@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+
+.header{
+    background-color: rgb(6, 38, 48);
+} 
+
+
+/* nav bar style  */
+.navbar-toggler {
+    border: 2px solid #fff;
+}
+    
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)	' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fc0'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+.btn-close:focus{
+    outline: none;
+}
+
+.navbar{
+    padding: 20px 0px;
+}
+.navbar-nav{
+    margin-right: 150px;
+}
+button.login-btn{
+    background-color: rgb(255, 102, 0);
+    border: 1px solid  rgb(255, 102, 0);
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: none;
+}
+button.login-btn:hover{
+    color: #fff;
+    border: 1px solid  #fff;
+    background-color: rgb(6, 38, 48);
+}
+
+
+/* header style  */
+button.Purchase-btn{
+    background-color: rgb(255, 102, 0);
+    border: 1px solid  rgb(255, 102, 0);
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 150px;
+}
+button.Purchase-btn:hover{
+    color: #fff;
+    border: 1px solid  #fff;
+    background-color: rgb(6, 38, 48);
+}
+span{
+    color: rgb(255, 102, 0);
+}
+.text-box-header{
+    margin-top: 10px;
+    background-size: cover;
+    height: 100%;
+}
+
+.header-content .header-img{
+    padding: 150px 0px 100px 0px;
+}
+.header-content .content{
+    padding: 200px 0px 100px 0px;
+}
+.header-content .content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header-content .content h1{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.btn-one{
+    border: 1px solid rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+    background-color: #fff;
+}
+.btn-one:hover{
+    border: 1px solid rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+}
+
+/* Fetured Bikes 2021  */
+
+.bottom-line{
+    margin-top: -15px!important;
+}
+.second-section-content{
+    padding: 100px 0px 50px 0px;
+}
+.second-section-img{
+    padding: 50px 0px 100px 0px;
+}
+
+/* letest-section */
+.letest-section h1{
+    font-size: 32px;
+}
+
+.read-bt{
+    background-color:rgb(255, 102, 0) importent!;
+    color: #fff importent!;
+}
+.read-bt:hover{
+    color:rgb(255, 102, 0) importent!;
+    border: 2px solid  rgb(255, 102, 0);
+}
+
+
+/* news */
+.card{
+    padding: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.letest-news-content {
+    padding-left: 10px;
+}
+
+.letest-news-content p{
+    color: #000;
+    width: 75%;
+}
+.read-btn{
+    background-color: rgb(255, 102, 0);
+    color: #fff; 
+    padding: 8px 15px;
+}
+.read-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 102, 0);
+    border: 2px solid rgb(255, 102, 0);;
+    padding: 8px 15px;
+}
+.read-btn-two{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 102, 0);
+    border: 2px solid rgb(255, 102, 0);
+    padding: 8px 15px;
+}
+.read-btn-two:hover{
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+    border: 2px solid rgb(255, 102, 0);
+    padding: 8px 15px;
+}
+
+
+/* testomonial  */
+
+
+.card .img img{
+    width: 200px;
+    padding: 50px 0px;
+}
+.custom-img{
+    width: 200px;
+    height: 295px;
+    border-radius: 50%;
+}
+
+.testominal-content{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.testominal-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(138, 138, 138);
+}
+.testominal-content ul{
+    margin: 0px;
+    padding: 0px;
+}
+.testominal-content ul i{
+    color:rgb(255, 102, 0);
+    padding-bottom: 20px;
+
+}
+.testominal-content a{
+    text-decoration: none;
+    color: rgb(75, 153, 255);
+    font-weight: 500;
+}
+.testominal-content h3{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* FAQ   */
+
+.card .faq-img{
+    width: 100%;
+    height: 100%;
+}
+
+.card .accordion{
+    width: 100%;
+}
+
+.Frequently{
+    padding: 20px 0px 30px 0px;
+}
+/* ktm rc  */
+.ktm-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ktm-text-box span{
+    border-bottom: 2px solid rgb(255, 102, 0);
+    cursor: pointer;
+}
+.ktm h1{
+    font-size: 42px;
+}
+.ktm p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(92, 91, 91);
+    text-align: center;
+    width: 75%;
+    margin:20px 0px 0px 70px!important;
+    padding: 0px  !important;
+}
+.ktm h1{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.ktm .card{
+    border: none;
+}
+
+
+/* carousel */
+
+
+.carousel-item img{
+    width: 100%;
+    height: 450px !important;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+
+/* footer  */
+.footer-text-box{
+    padding: 70px 0px;
+}
+.footer-a a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-right: 10px !important;
+}
+.footer-a p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.img-box .border{
+    border: 2px solid rgb(189, 189, 189) !important;
+    width: 150px;
+    border-radius: 5px;
+}
+.img-box .img {
+    width: 170px;
+}

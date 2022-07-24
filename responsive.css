@@ -1,0 +1,30 @@
+@media  (max-width: 650px){
+    .header-content .header-img{
+        padding: 0px 0px 0px 0px;
+    }
+    .header-content .content{
+        padding: 0px 0px 0px 0px;
+    }
+    .button .login-btn,
+    .button.Purchase-btn{
+        margin: 0;
+    }
+    .content{
+        line-height: 16px;
+    }
+    p{
+        font-size: 10px;
+        color: rgb(235, 235, 235);
+    }
+    h1{
+        font-size: 25px;
+    }
+    .header-content img{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 8px 20px;
+    }
+}
